@@ -1,0 +1,43 @@
+li
+{
+  display: inline; /* Отображать как строчный элемент */
+  font-family : Open Sans Extrabold;
+  font-size: 18px;
+  line-height: 50px;
+  color: #4C4C4C;
+  color: rgb(76, 76, 76);
+  margin: auto;
+}
+.line1 {
+  width: 970px;
+  height: 40px; /*временно*/
+  background-color: #4C4C4C;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.foundline{
+  flex-wrap: nowrap;
+  margin: auto;
+  display: flex-end;
+  align-items: center;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 970px;
+}
+li:hover { /*псевдоклассы (меняется цвет при аведении мыши)*/
+  color: #5EAEB5;
+}
+p {
+  color: #E5C81F;
+  font-size: 20px;
+}
+body {
+  background-color: #FFFFFF; /*Цвет фона сайта*/
+  margin: 50px; /* Отступы */
+}
